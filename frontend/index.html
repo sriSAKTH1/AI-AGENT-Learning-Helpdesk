@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>AI Learning Helpdesk</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+
+</head>
+
+<body>
+
+    <div class="app">
+
+        <header class="header">
+            <div>
+                <h1>AI Learning Helpdesk</h1>
+                <p>Learn AI, LLMs, RAG, LangChain & LangGraph</p>
+            </div>
+
+            <div class="status">
+                <span class="status-dot"></span>
+                AI Online
+            </div>
+        </header>
+
+
+        <main class="chat-container">
+
+            <div id="chatMessages" class="chat-messages">
+
+                <div class="message bot">
+                    <div class="avatar">AI</div>
+
+                    <div class="bubble">
+                        <p>
+                            Hello! 👋 Ask me anything about AI, LLMs,
+                            RAG, LangChain, LangGraph, agents or related topics.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+
+
+            <div class="input-area">
+
+                <textarea
+                    id="messageInput"
+                    placeholder="Ask an AI learning question..."
+                    rows="1"
+                ></textarea>
+
+                <button id="sendButton" onclick="sendMessage()">
+                    Send
+                </button>
+
+            </div>
+
+        </main>
+
+    </div>
+
+    <script src="app.js"></script>
+    
+</body>
+</html>

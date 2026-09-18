@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Moderator Panel</title>
+
+    <link rel="stylesheet" href="moderator.css">
+</head>
+
+<body>
+
+    <div class="dashboard">
+
+        <header class="header">
+            <div>
+                <h1>AI Learning Helpdesk</h1>
+                <p>Moderator Panel</p>
+            </div>
+
+            <div class="status">
+                <span class="status-dot"></span>
+                Moderator Online
+            </div>
+        </header>
+
+
+        <main class="content">
+
+            <section class="review-card">
+
+                <div class="review-header">
+                    <h2>⚠️ Human Review Required</h2>
+
+                    <span id="reviewStatus">
+                        Waiting
+                    </span>
+                </div>
+
+
+                <div class="field">
+                    <label>User ID</label>
+
+                    <div id="userId">
+                        —
+                    </div>
+                </div>
+
+
+                <div class="field">
+                    <label>Question</label>
+
+                    <div id="question">
+                        No pending request
+                    </div>
+                </div>
+
+
+                <div class="field">
+                    <label>Reason</label>
+
+                    <div id="reason">
+                        —
+                    </div>
+                </div>
+
+
+                <div class="actions">
+
+                    <button
+                        id="answerButton"
+                        class="answer"
+                        disabled
+                    >
+                        Answer
+                    </button>
+
+                    <button
+                        id="rejectButton"
+                        class="reject"
+                        disabled
+                    >
+                        Reject
+                    </button>
+
+                    <button
+                        id="blockButton"
+                        class="block"
+                        disabled
+                    >
+                        Block 1 Hour
+                    </button>
+
+                </div>
+
+
+                <div id="result"
+                     class="result">
+                </div>
+
+            </section>
+
+        </main>
+
+    </div>
+
+
+    <script src="moderator.js"></script>
+
+</body>
+
+</html>

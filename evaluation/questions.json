@@ -1,0 +1,152 @@
+[
+  {
+    "question": "What is LangGraph?",
+    "expected_scope": "AI",
+    "expected_route": "rag"
+  },
+  {
+    "question": "What is LangChain?",
+    "expected_scope": "AI",
+    "expected_route": "rag"
+  },
+  {
+    "question": "What is RAG?",
+    "expected_scope": "AI",
+    "expected_route": "rag"
+  },
+  {
+    "question": "What is Agentic RAG?",
+    "expected_scope": "AI",
+    "expected_route": "rag"
+  },
+  {
+    "question": "What are embeddings?",
+    "expected_scope": "AI",
+    "expected_route": "rag"
+  },
+  {
+    "question": "What is a vector database?",
+    "expected_scope": "AI",
+    "expected_route": "rag"
+  },
+  {
+    "question": "What is Chroma?",
+    "expected_scope": "AI",
+    "expected_route": "rag"
+  },
+  {
+    "question": "What is prompt engineering?",
+    "expected_scope": "AI",
+    "expected_route": "rag"
+  },
+  {
+    "question": "What is an AI agent?",
+    "expected_scope": "AI",
+    "expected_route": "rag"
+  },
+  {
+    "question": "What is tool calling?",
+    "expected_scope": "AI",
+    "expected_route": "rag"
+  },
+  {
+    "question": "What is function calling?",
+    "expected_scope": "AI",
+    "expected_route": "rag"
+  },
+  {
+    "question": "What is MCP?",
+    "expected_scope": "AI",
+    "expected_route": "rag"
+  },
+  {
+    "question": "What is human-in-the-loop?",
+    "expected_scope": "AI",
+    "expected_route": "rag"
+  },
+  {
+    "question": "What is AI evaluation?",
+    "expected_scope": "AI",
+    "expected_route": "rag"
+  },
+  {
+    "question": "What are AI guardrails?",
+    "expected_scope": "AI",
+    "expected_route": "rag"
+  },
+  {
+    "question": "What is LangGraph state?",
+    "expected_scope": "AI",
+    "expected_route": "rag"
+  },
+  {
+    "question": "What is a LangGraph checkpointer?",
+    "expected_scope": "AI",
+    "expected_route": "rag"
+  },
+  {
+    "question": "What is multi-agent architecture?",
+    "expected_scope": "AI",
+    "expected_route": "rag"
+  },
+  {
+    "question": "How does Agentic RAG work?",
+    "expected_scope": "AI",
+    "expected_route": "rag"
+  },
+  {
+    "question": "How do LLM APIs work?",
+    "expected_scope": "AI",
+    "expected_route": "rag"
+  },
+  {
+    "question": "What is today's weather?",
+    "expected_scope": "OUT_OF_SCOPE",
+    "expected_route": "moderator"
+  },
+  {
+    "question": "What is the temperature today?",
+    "expected_scope": "OUT_OF_SCOPE",
+    "expected_route": "moderator"
+  },
+  {
+    "question": "Give me a chicken recipe.",
+    "expected_scope": "OUT_OF_SCOPE",
+    "expected_route": "moderator"
+  },
+  {
+    "question": "What movie should I watch?",
+    "expected_scope": "OUT_OF_SCOPE",
+    "expected_route": "moderator"
+  },
+  {
+    "question": "Who won today's cricket match?",
+    "expected_scope": "OUT_OF_SCOPE",
+    "expected_route": "moderator"
+  },
+  {
+    "question": "Tell me a joke.",
+    "expected_scope": "OUT_OF_SCOPE",
+    "expected_route": "moderator"
+  },
+  {
+    "question": "What is the latest LangGraph release?",
+    "expected_scope": "AI",
+    "expected_route": "web"
+  },
+  {
+    "question": "What is the latest LangChain version?",
+    "expected_scope": "AI",
+    "expected_route": "web"
+  },
+  {
+    "question": "What are the latest AI agent developments?",
+    "expected_scope": "AI",
+    "expected_route": "web"
+  },
+  {
+    "question": "What are the latest developments in MCP?",
+    "expected_scope": "AI",
+    "expected_route": "web"
+  }
+]
